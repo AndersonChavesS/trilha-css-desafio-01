@@ -7,7 +7,7 @@
   --color-primary: #33a8db;
   --color-secondary: #1472b7;
   --color-tertiary: #31a8dd;
-  --text-color: #fff;
+  --text-color: #ffffff;
 }
 
 body {
@@ -107,4 +107,34 @@ section {
 
 .banner .banner-content button:hover {
   opacity: 0.7;
+}
+
+#course-content {
+  width: 800px;
+  text-align: center;
+}
+
+#course-content p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+#course-content .modules-list {
+  margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+  color: var(--text-color);
+  font-size: 1.6rem;
+  width: 530px;
+  margin: 0 auto 24px;
+  border: 1px solid var(--color-primary);
+  background-color: #252525;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+}
+
+#course-content .modules-list .module span {
+  color: var(--color-primary);
 }
