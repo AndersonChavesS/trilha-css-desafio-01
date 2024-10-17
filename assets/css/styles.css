@@ -157,3 +157,17 @@ section {
   max-width: 250px;
   text-shadow: 3px 2px var(--color-primary);
 }
+
+#professional-challenges {
+  text-align: center;
+  width: 800px;
+}
+
+#professional-challenges img{
+  margin: 32px 0;
+}
+
+#professional-challenges p{
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
