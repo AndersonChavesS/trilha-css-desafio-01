@@ -4,6 +4,7 @@
   font-size: 62.5%;
   --border-color-primary: #3ba1cd;
   --border-color-secondary: #1572b7;
+  --border-color-transparent: #33a8db80;
   --color-primary: #33a8db;
   --color-secondary: #1472b7;
   --color-tertiary: #31a8dd;
@@ -137,4 +138,22 @@ section {
 
 #course-content .modules-list .module span {
   color: var(--color-primary);
+}
+
+#transform-world {
+  height: 560px;
+  background-image: url('../images/woman-code.png');
+  background-size: cover;
+  background-attachment: fixed;
+  border-top: 1px solid var(--border-color-transparent);
+  border-bottom: 1px solid var(--border-color-transparent);
+  padding: 200px;
+}
+
+#transform-world p {
+  font-weight: 900;
+  font-size: 4rem;
+  text-transform: lowercase;
+  max-width: 250px;
+  text-shadow: 3px 2px var(--color-primary);
 }
