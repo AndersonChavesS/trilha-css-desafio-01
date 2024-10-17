@@ -134,6 +134,7 @@ section {
   padding: 16px;
   border-radius: 100px;
   box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
 }
 
 #course-content .modules-list .module span {
@@ -163,11 +164,37 @@ section {
   width: 800px;
 }
 
-#professional-challenges img{
+#professional-challenges img {
   margin: 32px 0;
 }
 
-#professional-challenges p{
+#professional-challenges p {
   font-size: 1.6rem;
   line-height: 2rem;
+}
+
+footer {
+  padding: 60px 0;
+  text-align: center;
+  background-image: linear-gradient(
+    rgba(50, 168, 219, 0),
+    rgba(50, 168, 219, 0.2)
+  );
+  border-top: 1px solid var(--border-color-transparent);
+}
+
+footer .dio-logo {
+  width: 300px;
+}
+
+footer p,
+footer a {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+footer a {
+  color: var(--color-primary);
+  font-weight: bold;
+  text-decoration: none;
 }
